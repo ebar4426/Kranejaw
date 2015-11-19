@@ -15,6 +15,9 @@
 	<link href="css/main.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  	<script src="js/youtube.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -100,8 +103,8 @@
       </div>
       <div class="row">
       	<div class="col-lg-12 videobox_home_player intro">
-      		<a href="https://youtu.be/Ov4-zrIICWA"><img src="images/blue_unbox.jpg" class="img-thumbnail" alt="Video link" width="200" height="100"></a>
-      		<a href="https://youtu.be/BkcR7BNyTEw"><img src="images/elgato_unbox.jpg" class="img-thumbnail" alt="Video link" width="200" height="100"></a>
+      		<a href="https://www.youtube.com/watch?v=Ov4-zrIICWA&feature=youtu.be"><img src="images/blue_unbox.jpg" class="img-thumbnail" alt="Video link" width="200" height="100"></a>
+      		<a href="https://www.youtube.com/watch?v=BkcR7BNyTEw&feature=youtu.be"><img src="images/elgato_unbox.jpg" class="img-thumbnail" alt="Video link" width="200" height="100"></a>
       		<a href="https://www.youtube.com/watch?v=q3HrANunZ2s&feature=youtu.be"><img src="images/afterglow_unbox.jpg" class="img-thumbnail" alt="Video link" width="200" height="100"></a>
       		<a><img src="images/youtubevideoplay.jpg" class="img-thumbnail" alt="Video link" width="200" height="100"></a>
       		<a><img src="images/youtubevideoplay.jpg" class="img-thumbnail" alt="Video link" width="200" height="100"></a>      		
@@ -119,9 +122,14 @@
 
     </div><!-- /.container -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+<div class="modal fade" id="mediaModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-body">
+      <!-- content dynamically inserted -->
+    </div>
+  </div>
+</div>
+</div>
   </body>
 </html>
